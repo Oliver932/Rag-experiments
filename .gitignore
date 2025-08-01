@@ -56,8 +56,11 @@ coverage.xml
 # MacOS
 .DS_Store
 
-# PDF and other large files
-*.pdf
+# PDF and other large files (but keep source PDFs)
+# *.pdf
+
+# Keep source files but ignore generated JSON files if they get large
+# JSON_files/
 
 # Environment variables
 .env
@@ -65,7 +68,7 @@ coverage.xml
 
 # Local files
 *.local
-
+*.json
 # Logs
 *.log
 
