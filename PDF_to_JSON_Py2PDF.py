@@ -37,7 +37,7 @@ def process_pdf_to_json_pypdf2(pdf_path, output_dir="output"):
     print(f"Successfully processed and saved structured data to '{output_json_filename}'")
 
 if __name__ == "__main__":
-    source_directory = "./test_source_files"
+    source_directory = "./source_files"
     output_directory = "./JSON_files"
 
     if not os.path.exists(source_directory):

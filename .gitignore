@@ -80,3 +80,19 @@ coverage.xml
 
 # Other
 Thumbs.db
+
+#ignore text files
+*.txt
+
+#ignore venv
+/.venv/
+
+/text_files/
+/markdown_files/
+/source_files/
+/test_source_files/
+/JSON_files/
+/cleaned_JSON_files/
+
+#ignore pdfs
+*.pdf
