@@ -71,6 +71,7 @@ coverage.xml
 *.json
 # Logs
 *.log
+*.pdf
 
 # Backup files
 *~
@@ -90,9 +91,7 @@ Thumbs.db
 /text_files/
 /markdown_files/
 /source_files/
-/test_source_files/
+/chunk_files/
 /JSON_files/
-/cleaned_JSON_files/
+/chroma_db/
 
-#ignore pdfs
-*.pdf
